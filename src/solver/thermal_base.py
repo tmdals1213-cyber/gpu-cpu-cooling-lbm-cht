@@ -103,4 +103,3 @@ class ThermalOperator:
         return dict(boundary_heat_W=qcond+qadv+qinlet,advective_heat_W=qadv,
             conductive_heat_W=qcond+qinlet,volume_in_m3_s=vin,volume_out_m3_s=vout,
             volume_imbalance=abs(vin-vout)/max(vin,vout,1e-30),thermal_residual=residual)
-

@@ -412,4 +412,3 @@ def package_geometry(dx_mm=1., lengths_mm=(96.,80.,112.), lift_mm=0.):
         mask=mesh.contains(points.reshape(-1,3)).reshape(points.shape[:-1])
         old=ids[index];old[mask]=part['material'];ids[index]=old
     return ids,spec,offset
-

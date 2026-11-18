@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "file_count": 108,
-  "total_bytes": 80473957,
+  "total_bytes": 80473954,
   "max_file_bytes": 34716493,
   "cases": [
     "natural",
@@ -438,8 +438,8 @@
     },
     {
       "path": "src/solver/model.py",
-      "bytes": 1691,
-      "sha256": "488582c2208c4418943b00bb4931fc67063a644130f5014616458e4c7c4ae48a"
+      "bytes": 1690,
+      "sha256": "6329744ee075b741b9e3b1cf88be630de9a0910abdb64738f9c01c9c555d2d26"
     },
     {
       "path": "src/solver/prepare_flow.py",
@@ -483,8 +483,8 @@
     },
     {
       "path": "src/solver/thermal_base.py",
-      "bytes": 4747,
-      "sha256": "3489325ed372776e99a4edb4c71778e9d488f03d21e07fbdc513ffeeb15df5c1"
+      "bytes": 4746,
+      "sha256": "41f0398f49b9d6eeccf9626440ae867d3d3b4af77c9822fbb409a350df5b87a5"
     },
     {
       "path": "src/solver/thermal_convergence.py",
@@ -493,8 +493,8 @@
     },
     {
       "path": "src/solver/transient.py",
-      "bytes": 23056,
-      "sha256": "ac845d103c4df24ea9247892dd4f655315ebdd7960e5c354ee52ed50116cc6ba"
+      "bytes": 23055,
+      "sha256": "bdc634ec4eafc43f360885cb1b1e064ceea619f27ce3ac18aa91c13ed6aa847d"
     },
     {
       "path": "src/solver/verify_heatpipes.py",

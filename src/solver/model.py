@@ -38,4 +38,3 @@ FAN=dict(name='Noctua NF-A12x25 G2 PWM',diameter_mm=120.,rated_rpm=1800.,
     free_flow_m3_s=107.3/3600,shutoff_Pa=3.14*9.80665,
     curve='Parabolic interpolation of published endpoints; not a measured manufacturer curve',
     source='https://cdn.noctua.at/media/noctua_nf_a12x25_g2_pwm_infosheet_en_web.pdf')
-
