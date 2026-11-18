@@ -1,0 +1,175 @@
+{
+  "revision": "C",
+  "case": "ventilation",
+  "status": "setup_checked_no_flow_solve",
+  "cpu": {
+    "reference": "AMD Ryzen 9 9950X3D2 Dual Edition",
+    "reference_TDP_W": 200.0,
+    "Tjmax_C": 95.0,
+    "geometry": "AM5-inspired equivalent solid model, not manufacturer internal CAD",
+    "power": "Prescribed constant 200 W design scenario referenced to published TDP; not measured package power",
+    "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d2-dual-edition.html"
+  },
+  "domain_mm": [
+    240,
+    200,
+    320
+  ],
+  "domain_L": 15.36,
+  "dx_mm": 1.0,
+  "computed_half_cells": 7680000,
+  "power_W": 200.0,
+  "source_W": {
+    "CCD1": 90.0,
+    "CCD2": 90.0,
+    "IOD": 20.0
+  },
+  "ambient_C": 25.0,
+  "initial_C": 25.0,
+  "supply_C": 25.0,
+  "fluid": {
+    "name": "Air",
+    "rho": 1.184,
+    "cp": 1007.0,
+    "k": 0.0263,
+    "nu": 1.562e-05,
+    "beta": 0.0033540164346805303
+  },
+  "temperature_reference_C": 25.0,
+  "sustained_load_design_target_C": 85.0,
+  "near_limit_C": 90.0,
+  "temperature_limit_C": 95.0,
+  "stop_meaning": "Temperature-limit event for a fixed heat load; NOT hardware shutdown",
+  "power_control": "Prescribed thermal load, no emulation of vendor boost/throttling",
+  "ports": [
+    {
+      "axis": 1,
+      "side": 0,
+      "ranges": [
+        [
+          40,
+          200
+        ],
+        [
+          0,
+          200
+        ],
+        [
+          20,
+          140
+        ]
+      ],
+      "velocity_m_s": [
+        0,
+        0.9832238541666668,
+        0
+      ],
+      "ramp_velocity": true,
+      "sine_rect": true
+    },
+    {
+      "axis": 2,
+      "side": 1,
+      "ranges": [
+        [
+          40,
+          200
+        ],
+        [
+          40,
+          160
+        ],
+        [
+          0,
+          320
+        ]
+      ]
+    }
+  ],
+  "passive_pressure": null,
+  "case_flow_CFM": 40.0,
+  "case_fan_model": "Prescribed inlet through-flow + reference-pressure outlet; enclosure-fan operating point not resolved",
+  "cpu_fan_rpm": null,
+  "fan": null,
+  "liquid_flow_L_min": null,
+  "external_wall_h_W_m2K": 5.0,
+  "wall_resistance": 0.0,
+  "wall_heat_capacity": 0.0,
+  "cooler": {
+    "size_mm": [
+      120,
+      120,
+      60
+    ],
+    "base": "6 mm copper",
+    "fin_material": "Aluminium",
+    "fin_count": 24,
+    "fin_thickness_mm": 1,
+    "fin_height_mm": 54,
+    "clear_gap_mm": 4,
+    "copper_aluminium_interface": "Perfect bonded contact assumption",
+    "heatpipes": {
+      "count": 6,
+      "outer_diameter_mm": 6.0,
+      "bend_radius_mm": 21.0,
+      "y_centres_mm": [
+        60.0,
+        76.0,
+        92.0,
+        108.0,
+        124.0,
+        140.0
+      ],
+      "evaporator_z_mm": 33.0,
+      "condenser_top_z_mm": 75.0,
+      "equivalent_internal_conductivity_W_mK": 10000.0,
+      "interface_conductivity_W_mK": 390.0,
+      "volumetric_heat_capacity_J_m3K": 1800000.0,
+      "pipe_to_base_and_fin_contact": "Ideal bonded contact; unchanged CPU TIM resistance",
+      "geometry": "Six independent slotted-racetrack pipes, symmetric about x=120 mm",
+      "model": "Finite equivalent internal conductivity with copper interface conduction",
+      "parameter_status": "Declared engineering assumption, not product-calibrated or fitted to CPU temperature",
+      "limits": "Internal two-phase flow, startup, capillary limit, dryout and orientation-dependent performance are not resolved",
+      "sources": [
+        "https://www.1-act.com/thermal-solutions/passive/heat-pipes/heat-pipe-design-guide/",
+        "https://info.boydcorp.com/hubfs/Thermal/Two-Phase-Cooling/Boyd-Copper-Water-Heat-Pipes.pdf",
+        "https://www.qats.com/cms/wp-content/uploads/Heat-Pipe-Engineering-eBook.pdf"
+      ]
+    },
+    "description": "Manufacturable simplified bonded-fin cooler; not a calibrated commercial product"
+  },
+  "contacts_m2K_W": {
+    "(2, 5)": 2e-06,
+    "(3, 5)": 2e-06,
+    "(4, 5)": 2e-06,
+    "(5, 8)": 2e-05,
+    "(5, 10)": 2e-05
+  },
+  "immersion_render": null,
+  "grid_converged": false,
+  "temperature_accuracy_validated": false,
+  "next_validation": [
+    "Zero-heat pressure-opening rest state",
+    "Low/high opening buoyancy and mass balance",
+    "Fin-channel and fan through-flow",
+    "Thermal and grid convergence before temperature claims"
+  ],
+  "material_counts": {
+    "0": 15085664,
+    "1": 3200,
+    "2": 70,
+    "3": 70,
+    "4": 120,
+    "5": 3328,
+    "6": 764,
+    "7": 149208,
+    "8": 69816,
+    "10": 47760
+  },
+  "offset_mm": [
+    72.0,
+    68.0,
+    24.0
+  ],
+  "x_symmetry": true
+}

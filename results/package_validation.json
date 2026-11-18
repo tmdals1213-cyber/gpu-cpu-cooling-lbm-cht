@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-18",
+  "status": "passed_with_declared_scope",
+  "checks": {
+    "python_source_parse": "passed",
+    "driver_help_imports": 8,
+    "case_geometry_and_material_checks": [
+      "natural",
+      "ventilation",
+      "cpu_fan",
+      "cold_plate"
+    ],
+    "GPU_smoke": {
+      "status": "passed",
+      "test": "Small closed-box GPU flow/heat startup and energy conservation",
+      "cells": 13824,
+      "physical_time_s": 0.005,
+      "relative_energy_residual": 1.734723475976807e-16,
+      "max_speed_m_s": 0.0,
+      "wallclock_s": 4.755020500160754,
+      "scope": "Not full-domain, timestep, grid or product validation"
+    },
+    "heatpipes": {
+      "status": "passed",
+      "connected_independent_full_pipes": 6,
+      "symmetric": true,
+      "half_pipe_nodes": 23880,
+      "substeps": 11,
+      "local_CFL": 0.5824242424242424,
+      "max_GPU_CPU_difference_K": 7.105427357601002e-15,
+      "relative_energy_drift": 1.9527801071445782e-16,
+      "unchanged_non_pipe_temperatures": true,
+      "internal_face_counts": [
+        22176,
+        19200,
+        20040
+      ],
+      "boundary_wall": 5.0,
+      "scope": "Implementation conservation and geometry; not product calibration or mesh independence"
+    },
+    "relocated_zip": "Extracted to a different directory; package audit, GPU smoke and cold-plate setup passed",
+    "public_payload_scan": "No user absolute paths or recognized credential patterns; raw fields/caches/environments excluded"
+  },
+  "not_performed": [
+    "Fresh full-domain four-case calculation",
+    "Clean pip installation on a second machine",
+    "Linux execution",
+    "Grid or time-step independence study",
+    "Product validation"
+  ]
+}

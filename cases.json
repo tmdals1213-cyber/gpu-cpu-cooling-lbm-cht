@@ -1,0 +1,6 @@
+{
+  "natural": "LBM-FVM_CFD-incomp-CHT_GPU_Python_01-natural-convection",
+  "ventilation": "LBM-FVM_CFD-incomp-CHT_GPU_Python_02-case-ventilation",
+  "cpu_fan": "LBM-FVM_CFD-incomp-CHT_GPU_Python_03-cpu-and-case-fans",
+  "cold_plate": "LBM-FVM_CFD-incomp-CHT_GPU_Python_04-cold-plate-water"
+}

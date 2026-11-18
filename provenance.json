@@ -1,0 +1,367 @@
+[
+  {
+    "source": "outputs/cpu_heatpipe_revision/setup.py",
+    "target": "src/solver/case_setup.py",
+    "source_sha256": "0910eeb564cb611b18765f9f9fefd8015fd21284499742f105d79b81b1d78912",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/run_transient_buffered.py",
+    "target": "src/solver/run_transient_buffered.py",
+    "source_sha256": "2dd2cf415bab5531c1ba221e00500dfa97acbb9bf1758cdd55367ecd00cb3a8b",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/fixed_flow_heat.py",
+    "target": "src/solver/fixed_flow_heat.py",
+    "source_sha256": "e3dd99d25d83e428c382e97b3bb0928e62c10bb62eca4329f4cdfe6f8aa7abd6",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/solve_air.py",
+    "target": "src/solver/solve_air.py",
+    "source_sha256": "f4315d3de14cf9b2b42a3123e5dd22fe1b5271c2c03c8696e9c38d6ad46fadfc",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/prepare_forced_flow.py",
+    "target": "src/solver/prepare_forced_flow.py",
+    "source_sha256": "0aa22244cea048f083f2b0df4691cd5bd419fd8f026aa1086a70789ad0ce82b9",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/cold_plate.py",
+    "target": "src/solver/cold_plate.py",
+    "source_sha256": "4c6994a2d4495e5eae9f2e30f3695c9ad4c66f258c3ec67f33373323ba831d99",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/water_case_air.py",
+    "target": "src/solver/water_case_air.py",
+    "source_sha256": "26e959d430f241576da228e4febc2fcacce92da97d4b21a0f0806090cc35980e",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/water_air_heat_history.py",
+    "target": "src/solver/water_air_heat_history.py",
+    "source_sha256": "3cc264648be16494c71f489e702252f84740441b6786ed62553f3428fb23ed38",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/heatpipes.py",
+    "target": "src/solver/heatpipes.py",
+    "source_sha256": "53a55a0e8b939004e16ab0c0dbf8b6e1a5c95d5ae9986760f88905fb49008558",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/checkpoint_io.py",
+    "target": "src/solver/checkpoint_io.py",
+    "source_sha256": "49910263613b22288de6ff44b045e815cffde8a094031dcc3a7c5fbd2c30f76f",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/thermal_convergence.py",
+    "target": "src/solver/thermal_convergence.py",
+    "source_sha256": "6e93f383cc44deedd0bf7f3fda33fb87194f16e7eb75f5e6dfb5076384a3354e",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/temperature_series.py",
+    "target": "src/solver/temperature_series.py",
+    "source_sha256": "a1ecdd88de44d8846da3947513421fd8abbc99cf78cee96092761e7993a1c4fa",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/verify_heatpipes.py",
+    "target": "src/solver/verify_heatpipes.py",
+    "source_sha256": "713780f63030baf02afddec04596efed1d979df5b84c7c2ddf2a3c808362b382",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_comparison/model.py",
+    "target": "src/solver/model.py",
+    "source_sha256": "48917c9e5e20383ca1e9542cad7eb231ffc62b7d4b154c62e9c36b232a858c48",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": true
+  },
+  {
+    "source": "outputs/cpu_transient_convection/transient.py",
+    "target": "src/solver/transient.py",
+    "source_sha256": "c320dcaa7bab9fa26af4dcf4bd94166b5519d07bd07ddb236030d08463089e6f",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": true
+  },
+  {
+    "source": "outputs/cpu_convergence/solve_steady.py",
+    "target": "src/solver/thermal_base.py",
+    "source_sha256": "38713212318776f6956dcc47c1cb23a075528ff4bb5ba54f53c88bdc79826276",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": true
+  },
+  {
+    "source": "outputs/cpu_comparison/thermal.py",
+    "target": "src/solver/thermal.py",
+    "source_sha256": "6f3ad0c7124c15aeff6f0b63386f3b375657dece758308b58d14dfa8bd7d7ba0",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_cht_demo/gpu_step.py",
+    "target": "src/solver/gpu_step.py",
+    "source_sha256": "6f969106721e40b982cb77a587bdac82b3628029c7ab19f42ab4e8215b1dfae0",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_transient_convection/pressure_boundary.py",
+    "target": "src/solver/pressure_boundary.py",
+    "source_sha256": "d82dcf43bd4852597e5c8cd1c33b2d0085edfda81afcb91dc7a7bb7012e58e4f",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_transient_convection/entropic_stabilization.py",
+    "target": "src/solver/entropic_stabilization.py",
+    "source_sha256": "aa5a3e0222df2dfd36108d8c21be87f03fb7e9bd367f4f085fef5554785aed0f",
+    "changes": "Portable imports, repository assets/output/cache paths; selected reusable definitions where indicated",
+    "selected_definitions": false
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ccd_a.stl",
+    "target": "assets/geometry/am5_surrogate/ccd_a.stl",
+    "source_sha256": "3f2e4dc02ee02214d75f12b6b0225ef13269cd2a39d4a1d69e86a69425459cfa"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ccd_b.stl",
+    "target": "assets/geometry/am5_surrogate/ccd_b.stl",
+    "source_sha256": "2825902d79f4ceb9dbf259848f8ef23f4bca984796885e9dc090f953f05a8d09"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_00.stl",
+    "target": "assets/geometry/am5_surrogate/fin_00.stl",
+    "source_sha256": "4b5e97b5da81e5af0641ce47155e3a2290ec6a70ae2b89855f159b7282f84e72"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_01.stl",
+    "target": "assets/geometry/am5_surrogate/fin_01.stl",
+    "source_sha256": "c077cb3f9054dec9045cfac58dad1759081712d76869de1204ec6d108745a058"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_02.stl",
+    "target": "assets/geometry/am5_surrogate/fin_02.stl",
+    "source_sha256": "30fbbee8e7c3f0b626d3e3b7731d4e9e2d70ee655accc1879f7664dd00267ce9"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_03.stl",
+    "target": "assets/geometry/am5_surrogate/fin_03.stl",
+    "source_sha256": "94594f6d3ed5f2b783800f053031f5e8d1a87851b6fecec74e6652d421212927"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_04.stl",
+    "target": "assets/geometry/am5_surrogate/fin_04.stl",
+    "source_sha256": "a1c270818fc3f23cf767616763bac5d9572762526cf86bd4def8b952741ea86d"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_05.stl",
+    "target": "assets/geometry/am5_surrogate/fin_05.stl",
+    "source_sha256": "30e310658fe6e5fd6a755c32b5845498384878ba65f731494dbd9f77c8461a80"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_06.stl",
+    "target": "assets/geometry/am5_surrogate/fin_06.stl",
+    "source_sha256": "3867ab330c80ad3ad07548749bacd0e5a8149c4813af6eaff49fc3d39f74d310"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_07.stl",
+    "target": "assets/geometry/am5_surrogate/fin_07.stl",
+    "source_sha256": "b8fbe7a7013bb588996b5c944a219708800b255c8bd5f4e5d9a8031aa4251856"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_08.stl",
+    "target": "assets/geometry/am5_surrogate/fin_08.stl",
+    "source_sha256": "a3cad8e98fcce8f8c922e358ce4f5b1382a2d2c541f4161a97ad648cf55e6876"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_09.stl",
+    "target": "assets/geometry/am5_surrogate/fin_09.stl",
+    "source_sha256": "b687cd5ff6961ec7f368fed425c9a20b333dac87ea1c21a3c66172eb10a3163e"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_10.stl",
+    "target": "assets/geometry/am5_surrogate/fin_10.stl",
+    "source_sha256": "da8ff88ee24826a784e8a5f4bf0b6b7c7dcb1ad566bde68a4b41f7f41206714d"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/fin_11.stl",
+    "target": "assets/geometry/am5_surrogate/fin_11.stl",
+    "source_sha256": "134d3533f18b460f4865040437ddf80d70481dc7dd6d94520ba9e84814102b02"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ihs_cap.stl",
+    "target": "assets/geometry/am5_surrogate/ihs_cap.stl",
+    "source_sha256": "aca696d3ce41a2ba6bccd7ec2b28c190de66d0c35912f37864367b227f1f7959"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ihs_east_18.stl",
+    "target": "assets/geometry/am5_surrogate/ihs_east_18.stl",
+    "source_sha256": "c3b77276d05195e9bc49612b99e7aa9e0f21d3f3b0fd8ade4771537f5d93b39b"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ihs_east_42.stl",
+    "target": "assets/geometry/am5_surrogate/ihs_east_42.stl",
+    "source_sha256": "9aae1adeadbb80192233e6b23b7497eb6703ff76732c809ce20161d9d9b7772d"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ihs_north_34.stl",
+    "target": "assets/geometry/am5_surrogate/ihs_north_34.stl",
+    "source_sha256": "0324c5f5c3231f8d517ab3a5048db6eb43a65b4d151704c7aa796a6b8e15f375"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ihs_north_58.stl",
+    "target": "assets/geometry/am5_surrogate/ihs_north_58.stl",
+    "source_sha256": "6cc1b4e0470e5b691dfb6b2c55ca426a2e76c47dba14b967dd3715a19193661d"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ihs_south_34.stl",
+    "target": "assets/geometry/am5_surrogate/ihs_south_34.stl",
+    "source_sha256": "7a99020ab49312a5795990d8c2104ff632f11165beb8bf0597743ef90918b64b"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ihs_south_58.stl",
+    "target": "assets/geometry/am5_surrogate/ihs_south_58.stl",
+    "source_sha256": "800d8e63af3149ab6098b4622bbb4f700cec41b4fb328577ab54d7b40fe940e3"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ihs_west_18.stl",
+    "target": "assets/geometry/am5_surrogate/ihs_west_18.stl",
+    "source_sha256": "d2b90170b07a68f909aa81ac87194164e42643fa59b75a5f51ee0c122dced51c"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/ihs_west_42.stl",
+    "target": "assets/geometry/am5_surrogate/ihs_west_42.stl",
+    "source_sha256": "ce17673eb08d4429409c8b9e02967aa9640b0b0dd828f3fb04fe48b1ce401890"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/io_die.stl",
+    "target": "assets/geometry/am5_surrogate/io_die.stl",
+    "source_sha256": "fbe4d18f47a4b86a24a46cf2c03c3c164a3292a5038d43796463879028a7817d"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/model.json",
+    "target": "assets/geometry/am5_surrogate/model.json",
+    "source_sha256": "d7156149634069fc55d9663b1a1212461ac6568fcc9b9b9b583738b360284564"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/sealed_gap.stl",
+    "target": "assets/geometry/am5_surrogate/sealed_gap.stl",
+    "source_sha256": "3b7ab798a8dbbaf80a47de3328032788eb139f3278091c3fbff2638f695e9e51"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/sink_base.stl",
+    "target": "assets/geometry/am5_surrogate/sink_base.stl",
+    "source_sha256": "beace72d9f7713cfac42acfc0964c697b3b535a407b77cc7ab2efe2bbde63684"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/geometry/am5_surrogate/substrate.stl",
+    "target": "assets/geometry/am5_surrogate/substrate.stl",
+    "source_sha256": "a7bbb859e57b47766d18caa40672f85078d5bbbc816e69254fd54ba12d43c666"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/LICENSE",
+    "target": "LICENSE",
+    "source_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "source": "outputs/cpu_cht_demo/NOTICE.txt",
+    "target": "NOTICE.txt",
+    "source_sha256": "0a93254ae2589bd4332356081b6550febf53f5a6b812546a4adc4bfa9d894c67"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/natural.mp4",
+    "target": "LBM-FVM_CFD-incomp-CHT_GPU_Python_01-natural-convection/summary.mp4",
+    "source_sha256": "e61f75c7724cd5bac1823ba3dd8e7fbc45592dc3677a6bbcfffbb13bdccd8c8c"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/natural_149.png",
+    "target": "LBM-FVM_CFD-incomp-CHT_GPU_Python_01-natural-convection/endpoint.png",
+    "source_sha256": "18121a94f98095792aadcafa6c6d617802d83f806a768da78525ef60ecc73d52"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/ventilation.mp4",
+    "target": "LBM-FVM_CFD-incomp-CHT_GPU_Python_02-case-ventilation/summary.mp4",
+    "source_sha256": "955edaa6759dac3114159ca4d62d256f5cc086f3023436a1a371eba981b8f712"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/ventilation_149.png",
+    "target": "LBM-FVM_CFD-incomp-CHT_GPU_Python_02-case-ventilation/endpoint.png",
+    "source_sha256": "d95ac894d4330083aa67fa2842f9047933ac4f142d6ea45705fe17cbd91e148c"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/cpu_fan.mp4",
+    "target": "LBM-FVM_CFD-incomp-CHT_GPU_Python_03-cpu-and-case-fans/summary.mp4",
+    "source_sha256": "b1987b6aea95a74eb2ad3934a15829b918bbb3a3b26ceedf061684a48c840c57"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/cpu_fan_149.png",
+    "target": "LBM-FVM_CFD-incomp-CHT_GPU_Python_03-cpu-and-case-fans/endpoint.png",
+    "source_sha256": "4020c1d14c1f6c2b816fc67518ed8ad218744c6652bc48576afcea96555b71cc"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/cold_plate.mp4",
+    "target": "LBM-FVM_CFD-incomp-CHT_GPU_Python_04-cold-plate-water/summary.mp4",
+    "source_sha256": "98b4f89a6357c503f6b4387fb2cd46aee7e4b17dafe796afb0d0fa88a81e400c"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/cold_plate_149.png",
+    "target": "LBM-FVM_CFD-incomp-CHT_GPU_Python_04-cold-plate-water/endpoint.png",
+    "source_sha256": "01f72dc2781aca8fb0e370b27a466a669868b8efd0cf4b4b4e5b38d428f733a2"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/cpu_cooling_landscape_16x9.mp4",
+    "target": "media/comparison_16x9.mp4",
+    "source_sha256": "7993f89c814dd63a6f754ec81e0b705f6c27bd7f3f31c6b308a62d1e2d1b4a3b"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/concise_edit/cpu_cooling_concise_9x16.mp4",
+    "target": "media/comparison_9x16.mp4",
+    "source_sha256": "5607b30b4c3ac2e0e480a72d574f02fc6bf44f44cb953ab1d15d549dec3d6cb6"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/comparison.png",
+    "target": "media/comparison.png",
+    "source_sha256": "13d4c46af1e22f6449b44d2b88a05f110b7efd83874d5a7d93defed34176d891"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/landscape_edit/overview.png",
+    "target": "media/overview.png",
+    "source_sha256": "c61b842c74c104282b120cbc63071384296059328ea112900f580851ac8d9780"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/temperature_histories.png",
+    "target": "results/temperature_histories.png",
+    "source_sha256": "daa882c5724f4b95172a7878128262dbea94d46e2cca82cd8b9dd8b575b3b71c"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/temperature_histories.csv",
+    "target": "results/temperature_histories.csv",
+    "source_sha256": "2dfa3da04321856e7cef2af01ddf2ee98a899a6e31c641d3cf3c65f9b09b6103"
+  },
+  {
+    "source": "outputs/cpu_heatpipe_revision/environment_versions.json",
+    "target": "environment/reference_environment.json",
+    "source_sha256": "9669322613c0811769dae2595ac15ca2e42e15080655f108bc0962ae011ee586"
+  }
+]

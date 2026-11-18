@@ -1,0 +1,37 @@
+{
+  "revision": "C",
+  "cases": [
+    {
+      "CPU_C": 95.04452437348984,
+      "physical_time_s": 160.20000000000002,
+      "status": "temperature_limit_reached",
+      "scope": "Archived Revision C outcome. Fresh flow preparation is not a claim of exact replay of omitted precursor fields.",
+      "case": "natural"
+    },
+    {
+      "CPU_C": 95.06497565204342,
+      "physical_time_s": 238.0,
+      "status": "temperature_limit_reached",
+      "scope": "Archived Revision C outcome. Fresh flow preparation is not a claim of exact replay of omitted precursor fields.",
+      "case": "ventilation"
+    },
+    {
+      "CPU_C": 95.01033148016137,
+      "physical_time_s": 339.0,
+      "status": "temperature_limit_reached",
+      "scope": "Archived Revision C outcome. Fresh flow preparation is not a claim of exact replay of omitted precursor fields.",
+      "case": "cpu_fan"
+    },
+    {
+      "CPU_C": 63.51644938934075,
+      "physical_time_s": 38.5,
+      "status": "CPU_temperature_settled",
+      "scope": "Archived Revision C outcome. Fresh flow preparation is not a claim of exact replay of omitted precursor fields.",
+      "case": "cold_plate"
+    }
+  ],
+  "water_inlet_C": 30,
+  "water_outlet_C": 32.861832,
+  "power_W": 200,
+  "validation_scope": "Demonstration, not product validated. See docs/NUMERICS.md."
+}

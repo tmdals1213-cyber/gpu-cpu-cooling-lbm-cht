@@ -1,0 +1,9 @@
+# Reference Python: 3.13.2. lbmpy 2.1.1 requires Python >=3.12.
+numpy==2.1.2
+scipy==1.15.2
+sympy==1.14.0
+lbmpy==2.1.1
+pystencils==2.1
+cupy-cuda12x[ctk]==14.2.0
+trimesh==4.6.8
+rtree==1.4.0

@@ -1,0 +1,47 @@
+{
+  "id": "cold_plate",
+  "folder": "LBM-FVM_CFD-incomp-CHT_GPU_Python_04-cold-plate-water",
+  "method": {
+    "flow": "D3Q27 cumulant LBM",
+    "heat": "Conservative finite-volume CHT",
+    "geometry": "Cartesian voxel NoSlip / bounce-back",
+    "IBM": false,
+    "physics": "Low-Mach incompressible-intent CFD with weakly compressible LBM; single-phase CHT"
+  },
+  "model": {
+    "power_W": 200,
+    "source_W": {
+      "CCD1": 90,
+      "CCD2": 90,
+      "IOD": 20
+    },
+    "ambient_C": 25,
+    "limit_C": 95,
+    "case_domain_mm": [
+      240,
+      200,
+      320
+    ],
+    "air_dx_mm": 1,
+    "external_wall_h_W_m2K": 5,
+    "heatpipes": false,
+    "case_flow_CFM": 40,
+    "cpu_fan_rpm": 0,
+    "water_inlet_C": 30,
+    "water_flow_L_min": 1
+  },
+  "run": {
+    "flow_dt_s": 2e-05,
+    "max_heat_time_s": 1200,
+    "heat_dt_s": 0.5,
+    "preparation_s": 4,
+    "average_window_s": 1,
+    "save_interval_s": 2
+  },
+  "reference": {
+    "CPU_C": 63.51644938934075,
+    "physical_time_s": 38.5,
+    "status": "CPU_temperature_settled",
+    "scope": "Archived Revision C outcome. Fresh flow preparation is not a claim of exact replay of omitted precursor fields."
+  }
+}

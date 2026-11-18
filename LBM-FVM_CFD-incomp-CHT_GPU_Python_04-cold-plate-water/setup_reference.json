@@ -1,0 +1,71 @@
+{
+  "case": "cold_plate",
+  "status": "setup_checked_no_flow_solve",
+  "cpu": {
+    "reference": "AMD Ryzen 9 9950X3D2 Dual Edition",
+    "reference_TDP_W": 200.0,
+    "Tjmax_C": 95.0,
+    "geometry": "AM5-inspired equivalent solid model, not manufacturer internal CAD",
+    "power": "Prescribed constant 200 W design scenario referenced to published TDP; not measured package power",
+    "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d2-dual-edition.html"
+  },
+  "local_domain_mm": [
+    64,
+    80,
+    24
+  ],
+  "dx_mm": 0.25,
+  "computed_half_cells": 3932160,
+  "power_W": 200.0,
+  "coolant": {
+    "name": "Water-like coolant proxy",
+    "rho": 1000.0,
+    "cp": 4200.0,
+    "k": 0.6,
+    "nu": 1e-06,
+    "reference": "Rounded constant-property model; not a specified glycol/additive product"
+  },
+  "supply_C": 30.0,
+  "flow_L_min": 1.0,
+  "ambient_C": 25.0,
+  "target_CPU_C": 85.0,
+  "temperature_limit_C": 95.0,
+  "cold_plate": {
+    "material": "Copper",
+    "base_mm": 2.0,
+    "channel_clear_width_mm": 1.0,
+    "channel_height_mm": 8.0,
+    "fin_thickness_mm": 1.0,
+    "active_channel_length_mm": 40.0,
+    "geometry": "Simplified parallel-channel block with inlet/outlet plenums"
+  },
+  "wet_contact": "Coolant contacts internal metal channel walls only; package surroundings are dry air",
+  "loop": "Pump/radiator outside local CFD domain, represented by fixed inlet temperature and flow",
+  "external_air": "Conduction-only local surrounding air approximation; no full-case air CFD in this case",
+  "grid_converged": false,
+  "temperature_accuracy_validated": false,
+  "contacts_m2K_W": {
+    "(2, 5)": 2e-06,
+    "(3, 5)": 2e-06,
+    "(4, 5)": 2e-06,
+    "(5, 8)": 2e-05,
+    "(5, 10)": 2e-05
+  },
+  "material_counts": {
+    "0": 1351680,
+    "1": 204800,
+    "2": 4480,
+    "3": 4480,
+    "4": 7680,
+    "5": 212992,
+    "6": 4480768,
+    "7": 450560,
+    "8": 1146880
+  },
+  "offset_mm": [
+    -16.0,
+    8.0,
+    4.0
+  ],
+  "x_symmetry": true
+}
